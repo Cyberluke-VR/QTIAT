@@ -29,7 +29,7 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 				background: '#ffffff',
 				borderWidth: 5,
 				canvasBackground: '#ffffff',
-				borderColor: 'lightblue'
+				borderColor: 'blue'
 			},
 			//When scoring, we will consider the compatible condition the pairing condition that requires response with one key to [category1,attribute1] and the other key to [category2,attribute2]
 			category1 : {
