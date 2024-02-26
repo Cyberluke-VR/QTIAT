@@ -1,11 +1,11 @@
-define(['pipAPI', 'https://cdn.jsdelivr.net/gh/Cyberluke-VR/QTIAT@main/IATCONT.JS'], function(APIConstructor, stiatExtension){
+define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/IAT/qualtrics/quiat9.js'], function(APIConstructor, stiatExtension){
 	
 	var API = new APIConstructor();
 		  return stiatExtension({
 		  category : { 
-		    name : 'Black people', //Will appear in the data.
+		    name : 'Luke', //Will appear in the data.
 		    title : {
-		      media : {word : 'Black people'}, //Name of the category presented in the task.
+		      media : {word : 'Luke'}, //Name of the category presented in the task.
 		      css : {color:'#31b404','font-size':'2em'}, //Style of the category title.
 		      height : 7 //Used to position the "Or" in the combined block.
 		    }, 
@@ -23,16 +23,16 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/Cyberluke-VR/QTIAT@main/IATCONT.J
 
   		attribute1 : 
 			{
-			name : 'Unpleasant', //Attribute label
+			name : 'Nope', //Attribute label
 			title : {
 				media : {word : 'Negative'}, //Name of the category presented in the task.
 				css : {color:'#31b404','font-size':'2em'}, //Style of the category title.
 				height : 7 //Used to position the "Or" in the combined block.
 			}, 
 			media : [ //Stimuli
-				{word: 'Bomb'},
-				{word: 'Abuse'},
-				{word: 'Sadness'},
+				{word: 'A'},
+				{word: 'B'},
+				{word: 'C'},
 				{word: 'Pain'},
 				{word: 'Poison'},
 				{word: 'Grief'}
