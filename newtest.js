@@ -23,9 +23,9 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/IAT/qualt
 
   		attribute1 : 
 			{
-			name : 'Nope', //Attribute label
+			name : 'dwqdwqdwqdwqd', //Attribute label
 			title : {
-				media : {word : 'NO'}, //Name of the category presented in the task.
+				media : {word : 'dwqdqwdwqd'}, //Name of the category presented in the task.
 				css : {color:'#31b404','font-size':'2em'}, //Style of the category title.
 				height : 7 //Used to position the "Or" in the combined block.
 			}, 
@@ -33,28 +33,28 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/IAT/qualt
 				{word: 'A'},
 				{word: 'B'},
 				{word: 'C'},
-				{word: 'Pain'},
-				{word: 'Poison'},
-				{word: 'Grief'}
+				{word: 'dqwqwd'},
+				{word: 'dwqwqd'},
+				{word: 'fqw'}
 			], 
 			//Can change color and size of the targets here.
 			css : {color:'#31b404','font-size':'3em'}
 			},
 		attribute2 : 
 			{
-			name : 'Pleasant', //Attribute label
+			name : 'asdasdsadsa', //Attribute label
 			title : {
-				media : {word : 'YES'}, //Name of the category presented in the task.
+				media : {word : 'sadasdasd'}, //Name of the category presented in the task.
 				css : {color:'#31b404','font-size':'2em'}, //Style of the category title.
 				height : 7 //Used to position the "Or" in the combined block.
 			}, 
 			media : [ //Stimuli
-				{word: 'Paradise'},
-				{word: 'Pleasure'},
-				{word: 'Cheer'},
-				{word: 'Wonderful'},
-				{word: 'Splendid'},
-				{word: 'Love'}
+				{word: 'ds'},
+				{word: 'asd'},
+				{word: 'dasdas'},
+				{word: 'asdasd'},
+				{word: 'asdsad'},
+				{word: 'asdasdsa'}
 			], 
 			//Can change color and size of the targets here.
 			css : {color:'#31b404','font-size':'3em'}
