@@ -27,19 +27,19 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/Cyberluke-VR/QTIAT@main/Blip.js']
 					height : 4 //Used to position the "Or" in the combined block.
 				}, 
 				media : [ //Stimuli
-					{word: 'Tyron'},
-					{word: 'Malik'},
-					{word: 'Terrell'},
-					{word: 'Jazmin'},
-					{word: 'Tiara'},
-					{word: 'Shanice'}
+					{word: 'as'},
+					{word: 'ds'},
+					{word: 'ads'},
+					{word: 'ds'},
+					{word: 'Tiaasra'},
+					{word: 'dsad'}
 				],
 				//Can change color and size of the targets here.
 				css : {color:'#31b404','font-size':'2em'}
 			},	
 			attribute1 : 
 			{
-				name : 'Unpleasant', //Attribute name to be used for feedback and logging
+				name : 'Boom', //Attribute name to be used for feedback and logging
 				title : {
 					media : {word : 'Unpleasant'}, //Name of the category presented in the task.
 					css : {color:'#31b404','font-size':'2em'}, //Style of the category title.
@@ -58,7 +58,7 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/Cyberluke-VR/QTIAT@main/Blip.js']
 			},
 			attribute2 : 
 			{
-				name : 'Pleasant', //Attribute name to be used for feedback and logging
+				name : 'Blom', //Attribute name to be used for feedback and logging
 				title : {
 					media : {word : 'Pleasant'}, //Name of the category presented in the task.
 					css : {color:'#31b404','font-size':'2em'}, //Style of the category title.
