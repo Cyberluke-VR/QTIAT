@@ -1,4 +1,4 @@
-define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) {
+define(['pipAPI', 'https://cdn.jsdelivr.net/gh/Cyberluke-VR/QTIAT@main/Blip.js'], function(APIConstructor, stiatExtension){
 
 	function stiatExtension(options)
 	{
